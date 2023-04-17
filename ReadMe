@@ -1,1 +1,20 @@
+# DashBoard & Blog Screens with side menu 
+
+** Tasks implemented in this project**
+
+* With taking the reference of web page UI, converted that to mobile screen UI.
+* Created humburger menu with user name and image. It has two header menus (Dashboard and Blogs). Both has sub menus and it can Expand and Collapsable.. On click of sub menu, User can navigate to selected screen based on the menu selection.
+* API call is happening to load data in each screens.
+* User can see the data from API with the segment All, Latest & Archieved.
+* There is details screen will shown when user clicked on any post. In details screen, user can see post detail in text view. There is edit button, User able to edit the post text and submit it to backend.
+
+**Implemented Features:**
+* Base url is taken based on enviroment (Debug and Release)
+* Generic API Class is implemented that can handle all kind of requests with single function call
+* Strings like identifiers are taken from constant files
+* DataFeeder class is implemented to get static data
+* common classes like loading indicator, swipe views are added.
+* Unit test are added to test fetch post api call.
+
+
 
