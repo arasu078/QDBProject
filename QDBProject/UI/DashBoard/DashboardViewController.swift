@@ -66,7 +66,7 @@ extension DashboardViewController: UITableViewDelegate, UITableViewDataSource {
             return
         }
         let storyboard = UIStoryboard(name: "Main", bundle: nil)
-        let detailViewController = storyboard.instantiateViewController(withIdentifier: AppConstants.dashboardCellId) as! DetailViewController
+        let detailViewController = storyboard.instantiateViewController(withIdentifier: AppConstants.detailViewControllerID) as! DetailViewController
         detailViewController.post = userObject
         navigationController?.pushViewController(detailViewController, animated: true)
     }

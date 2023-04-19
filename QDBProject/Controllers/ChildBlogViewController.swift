@@ -63,7 +63,7 @@ class ChildBlogViewController: UIViewController, UITableViewDelegate, UITableVie
             return
         }
         let storyboard = UIStoryboard(name: "Main", bundle: nil)
-        let detailView = storyboard.instantiateViewController(withIdentifier: AppConstants.childBlogViewControllerCellId) as! DetailViewController
+        let detailView = storyboard.instantiateViewController(withIdentifier: AppConstants.detailViewControllerID) as! DetailViewController
         detailView.post = userObject
         navigationController?.pushViewController(detailView, animated: true)
     }
